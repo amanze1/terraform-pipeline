@@ -1,7 +1,6 @@
 pipeline {
 
     agent{ label '!master' }
-
     parameters {
 
         string(name: 'AppName', defaultValue: 'Enter App Name', description: 'Name of application', )
